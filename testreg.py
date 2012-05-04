@@ -78,7 +78,7 @@ how_i_heard_menu_open = how_i_heard_opt.find_element_by_xpath(
     "../../div[@class='jquery-selectbox-moreButton']")
 
 how_i_heard_menu_open.click()
-sleep(2) # Necessary to sleep since the menu takes time to open
+sleep(1) # Necessary to sleep since the menu takes time to open
 how_i_heard_opt.click()
 
 submit_button = driver.find_element_by_xpath("//input[@class='submit']")

@@ -49,10 +49,6 @@ main_form_dict = {'first_name':       'John',
 
 fill_forms(main_form_dict)
 
-#assert city == 'Chicago'
-#assert state == 'Illinois'
-#assert zip_code == '60626'
-
 curr_provider_opt = driver.find_element_by_xpath(
     "//span[@class='jquery-selectbox-item value-None item-2']")
 
